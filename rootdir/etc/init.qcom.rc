@@ -311,7 +311,6 @@ on post-fs-data
 service qfintverify /sbin/qfintverify
     user root
     class core
-    seclabel u:r:qfips:s0
     oneshot
 
     # RIDL data
