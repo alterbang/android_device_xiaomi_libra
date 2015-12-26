@@ -295,8 +295,8 @@ PRODUCT_PACKAGES += \
 
 #FINGERPRINT
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Xiaomi/libra/libra:5.1.1/LMY47V/5.11.5:user/release-keys \
-    PRIVATE_BUILD_DESC="libra-user 5.1.1 LMY47V 5.11.5 release-keys"
+    BUILD_FINGERPRINT=Xiaomi/libra/libra:5.1.1/LMY47V/5.12.10:user/release-keys \
+    PRIVATE_BUILD_DESC="libra-user 5.1.1 LMY47V 5.12.10 release-keys"
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -313,19 +313,19 @@ PRODUCT_MODEL := Mi-4c
 
 # Init scripts
 PRODUCT_PACKAGES += \
-	init.class_main.sh \
-	init.mdm.sh \
-	init.qcom.class_core.sh \
-	init.qcom.early_boot.sh	\
-	init.qcom.factory.sh \
-	init.qcom.sh \
-	init.qcom.syspart_fixup.sh \
-	init.qcom.usb.sh \
-	init.qcom.rc \
-	init.qcom.usb.cdrom.rc \
-	init.qcom.usb.rc \
-	init.recovery.hardware.rc \
-	init.target.rc \
-	ueventd.goldfish.rc \
-	ueventd.qcom.rc \
+    init.class_main.sh \
+    init.mdm.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh	\
+    init.qcom.factory.sh \
+    init.qcom.sh \
+    init.qcom.syspart_fixup.sh \
+    init.qcom.usb.sh \
+    init.qcom.rc \
+    init.qcom.usb.cdrom.rc \
+    init.qcom.usb.rc \
+    init.recovery.hardware.rc \
+    init.target.rc \
+    ueventd.goldfish.rc \
+    ueventd.qcom.rc \
     fstab.qcom
