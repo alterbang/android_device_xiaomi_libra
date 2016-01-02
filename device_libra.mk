@@ -298,6 +298,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/libra/libra:5.1.1/LMY47V/5.12.10:user/release-keys \
     PRIVATE_BUILD_DESC="libra-user 5.1.1 LMY47V 5.12.10 release-keys"
 
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
+
+# set USB OTG enabled to add support for USB storage type
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.isUsbOtgEnabled=1
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -322,7 +330,6 @@ PRODUCT_PACKAGES += \
     init.qcom.syspart_fixup.sh \
     init.qcom.usb.sh \
     init.qcom.rc \
-    init.qcom.usb.cdrom.rc \
     init.qcom.usb.rc \
     init.recovery.hardware.rc \
     init.target.rc \
