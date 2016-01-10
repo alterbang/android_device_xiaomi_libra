@@ -227,3 +227,6 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/xiaomi/libra/sepolicy
 
 BOARD_SEPOLICY_UNION += \
+
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
