@@ -1013,3 +1013,6 @@ lib/modules/tspp.ko
 lib/modules/ufs_test.ko
 lib/modules/wil6210.ko
 lib/modules/wlan.ko
+#alterbang
+lib/libqminvapi.so
+lib64/libqminvapi.so
