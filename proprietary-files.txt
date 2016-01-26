@@ -1,5 +1,5 @@
 #bin
-bin/qfintverify
+#bin/qfintverify
 bin/qcom-system-daemon
 bin/ssr_setup
 bin/subsystem_ramdump
@@ -10,12 +10,12 @@ bin/dun-server
 bin/sapd
 bin/qmuxd
 bin/netmgrd
-bin/amploader
+#bin/amploader
 bin/cnss-daemon
 bin/ssr_diag
 bin/halsensors
 bin/sensor_select.sh
-bin/mmi
+#bin/mmi
 bin/msm_irqbalance
 bin/mmbn-daemon
 bin/wfdservice
@@ -1015,3 +1015,7 @@ lib/modules/wil6210.ko
 lib/libqminvapi.so
 lib64/libqminvapi.so
 vendor/lib/libmmcamera_s5k3m2xm_eeprom.so
+app/TimeService/TimeService.apk
+app/shutdownlistener/shutdownlistener.apk
+priv-app/QuickBoot/QuickBoot.apk
+priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk

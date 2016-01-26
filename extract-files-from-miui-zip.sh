@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf miuzip
 unzip miui.zip -d miuizip
 
 VENDOR=xiaomi
