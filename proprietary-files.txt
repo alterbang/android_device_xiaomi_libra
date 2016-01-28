@@ -1017,5 +1017,7 @@ lib64/libqminvapi.so
 vendor/lib/libmmcamera_s5k3m2xm_eeprom.so
 app/TimeService/TimeService.apk
 app/shutdownlistener/shutdownlistener.apk
-priv-app/QuickBoot/QuickBoot.apk
+#priv-app/QuickBoot/QuickBoot.apk
 priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+priv-app/com.qualcomm.location/com.qualcomm.location.apk
+priv-app/com.qualcomm.msapm/com.qualcomm.msapm.apk

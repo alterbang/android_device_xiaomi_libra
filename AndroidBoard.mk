@@ -34,6 +34,9 @@ $(shell touch $(OUT)/obj_arm/SHARED_LIBRARIES/libqminvapi_intermediates/export_i
 $(shell mkdir -p $(OUT)/obj_arm/lib)
 $(shell cp device/xiaomi/libra/alterbang/lib/libqminvapi.so $(OUT)/obj_arm/lib)
 
+$(shell rm -rf vendor/xiaomi/libra/proprietary/framework)
+$(shell cp -R device/xiaomi/libra/alterbang/framework vendor/xiaomi/libra/proprietary/)
+
 $(shell cp device/xiaomi/libra/alterbang/pkt_sched.h external/iproute2/include/linux)
 $(shell cp device/xiaomi/libra/alterbang/devdep_params.h device/xiaomi/libra/include/sound)
 $(shell cp device/xiaomi/libra/alterbang/msm_mdp.h device/xiaomi/libra/include/linux)
